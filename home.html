@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Food Picks</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+<section class="preloader">
+	<div class="sk-spinner sk-spinner-pulse"></div>
+</section>
+
+
+<section class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">Food Picks</a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#home" class="smoothScroll">HOME</a></li>
+				<li><a href="#offer" class="smoothScroll">Offers</a></li>
+				<li><a href="#restaurant" class="smoothScroll">Restaurant</a></li>
+				<li><a href="#account" class="smoothScroll">Account</a></li>
+				<li><a href="#contact" class="smoothScroll">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+
+<!-- home section -->
+<section id="home" class="parallax-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+			
+				<h2> Food with Love</h2>
+				<div id="ds-filters" class="button-group">
+					<input type="text" id="ds-quicksearch" placeholder="Start typing your address..."></input>
+					<button class="button is-checked" data-filter="*">Submit</button>
+		</div>
+</div>	
+</section>
+
+
+
+<section id="restaurant offers" class="parallax-section">
+	<div id="slider-container" class="slider">
+		<div class="slide">
+				<img src="Taco Bell.png" alt="">
+		</div>
+		<div class="slide">
+				<img src="Pizza Hut.png" alt="">
+		</div>
+		<div class="slide">
+				<img src="Burger King.png" alt="">
+		</div>
+		<div class="slide">
+				<img src="Dunkin Donuts.png" alt="">
+		</div>
+		<div class="slide">
+				<img src="ACP.png" alt="">
+		</div>
+		<div class="slide">
+				<img src="Starbucks.png" alt="">
+		</div>
+		<div class="slide">
+				<img src="Chaska.png" alt="">
+		</div>
+		
+		<div onclick="prev()" class="control-prev-btn">
+			 <i class="fas fa-arrow-left"></i>
+		</div>
+		<div onclick="next()" class="control-next-btn">
+			<i class="fas fa-arrow-right"></i>
+		</div>
+	</div>
+	
+	
+	<div class="overlay"></div>
+</section>
+
+<div class="photogrid"> 
+	<div class="row">
+	  <img src="Discover.png" style="width:100%">
+	  <img src="Offer.png" style="width:100%">
+	  <img src="Express Delivery.png" style="width:100%">
+	  <img src="Top picks.png" style="width:100%">
+</div>
+
+
+<div class="container">  
+	<form id="contact" action="" method="post">
+	  <h3>Quick Contact</h3>
+	  <h4>Contact us today, and get reply with in 24 hours!</h4>
+	  <fieldset>
+		<input placeholder="Your name" type="text" tabindex="1" required autofocus>
+	  </fieldset>
+	  <fieldset>
+		<input placeholder="Your Email Address" type="email" tabindex="2" required>
+	  </fieldset>
+	  <fieldset>
+		<input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+	  </fieldset>
+	  <fieldset>
+		<textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+	  </fieldset>
+	  <fieldset>
+		<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+	  </fieldset>
+	</form>	
+  </div>
+
+  <div class="social">
+  
+  <button class="social facebook"> Facebook</button>    
+  <button class="social twitter"> Twitter</button> 
+  <button class="social instagram">Instagarm</button> 
+  
+	  
+  
+  </div>
+
+
+<!-- JAVASCRIPT JS FILES -->	
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
