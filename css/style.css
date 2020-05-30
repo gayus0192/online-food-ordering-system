@@ -34,14 +34,6 @@ hr {
 
 
 
-#menu, #gallery, #team {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-#menu, #contact {
-  background: #f0f0f0;
-}
-
 .parallax-section {
   background-attachment: fixed !important;
   background-size: cover !important;
@@ -98,7 +90,7 @@ hr {
 
 /* start navigation */
 .navbar-default {
-  background: #ffffff;
+  background: blanchedalmond;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
   border: none;
   margin-bottom: 0;
@@ -107,7 +99,7 @@ hr {
   line-height: 28px;
 }
 .navbar-default .navbar-brand  {
-  color: #5C5C5C;
+  color: black;
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -119,7 +111,7 @@ hr {
 
 /* home section */
 #home {
-  background: url('../images/Food.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/image2.png') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -132,8 +124,11 @@ hr {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+ height: 50vh;
   text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  font-size: 12px;
 }
 .button {
   background-color: red; 
